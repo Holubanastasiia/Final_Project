@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* не подключаются шрифты */
+
+body {
+  color: #1e266d;
+}
+
+.wrapper {
+  width: 1600px;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  bottom: 2.44%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.menu_list {
+  display: flex;
+  padding-top: 28px;
+}
+
+.menu_list_item {
+  display: flex;
+  margin-right: 40px;
+  justify-content: center;
+  font-size: 16px;
+}
+
+/* как добавить галочку сверху */
+
+.menu_list_item::before {
+}
+
+.logo {
+  margin: 28px 0px 0px 210px;
+  display: block;
+}
+
+.Contact {
+  margin-left: 80px;
+}
+
+.Contact a {
+  margin-right: 35px;
+}
+
+.Contact button {
+  font-size: 16px;
+  background: #3751ff;
+  border-radius: 100px;
+  text-align: center;
+  border: none;
+  padding: 0px 14px 0px 16px;
+  height: 40px;
+  color: #fff;
+}
+
+.hero {
+  background: linear-gradient(
+    180deg,
+    rgba(242, 249, 255, 0.12) 0%,
+    #f2f9ff 100%
+  );
+  height: 878px;
+  left: -174px;
+}
+
+.title1 {
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 105%;
+  text-align: center;
+  padding-top: 145px;
+}
+
+.text1 {
+  font-size: 18px;
+  line-height: 150%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.button2 {
+  font-size: 16px;
+  background: #3751ff;
+  border-radius: 100px;
+  text-align: center;
+  border: none;
+  padding: 0px 14px 0px 16px;
+  color: #fff;
+  margin-right: 22px;
+  height: 50px;
+  width: 150px;
+}
+
+/* разобраться почему не работает */
+
+.button2:hover {
+  box-shadow: 0px 2px 4px rgba(2, 0, 10, 0.05);
+}
+
+.buttons_hero {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.button3 {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 100px;
+  border: none;
+  height: 50px;
+  width: 150px;
+  font-size: 16px;
+}
+
+.grafic {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}

@@ -206,3 +206,20 @@ button {
   z-index: 2;
   margin: -100px 40px 75px 300px;
 }
+
+.section_about__group2 {
+  z-index: 6;
+  position: relative;
+  top: 370px;
+  left: 200px;
+}
+
+.rectangle6 {
+  position: absolute;
+  left: 10px;
+}
+
+.image_3 {
+  position: absolute;
+  top: -5px;
+}

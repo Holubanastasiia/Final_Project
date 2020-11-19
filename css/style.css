@@ -168,6 +168,7 @@ button {
 .section_about {
   padding-top: 160px;
   text-align: center;
+  position: relative;
 }
 
 .section_about__title {
@@ -178,10 +179,16 @@ button {
   line-height: 60px;
 }
 
+.section_about__grafic {
+  position: absolute;
+}
+
 .section_about__group1 {
   position: absolute;
   width: 598px;
   height: 1039px;
+  top: -150px;
+  left: 255px;
 }
 
 .image_4 {

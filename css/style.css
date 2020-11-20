@@ -172,7 +172,7 @@ button {
 }
 
 .section_about__title {
-  position: relative;
+  /* position: relative; */
   text-align: center;
   font-weight: 500;
   font-size: 48px;
@@ -180,46 +180,77 @@ button {
 }
 
 .section_about__grafic {
-  position: absolute;
-}
-
-.section_about__group1 {
-  position: absolute;
-  width: 598px;
-  height: 1039px;
-  top: -150px;
-  left: 255px;
+  position: relative;
 }
 
 .image_4 {
   position: absolute;
+  left: 400px;
+  top: -120px;
   z-index: 4;
 }
 
 .rectangle5 {
   z-index: 3;
-  margin: 255px 65px 0px 15px;
-  position: relative;
+  position: absolute;
+  top: 137px;
+  right: 45px;
+  bottom: 0;
+  left: 415px;
 }
 
 .rectangle4 {
   z-index: 2;
-  margin: -100px 40px 75px 300px;
-}
-
-.section_about__group2 {
-  z-index: 6;
-  position: relative;
-  top: 370px;
-  left: 200px;
+  position: absolute;
+  top: 400px;
+  left: 700px;
 }
 
 .rectangle6 {
+  z-index: 7;
   position: absolute;
-  left: 10px;
+  left: 250px;
+  top: 400px;
 }
 
 .image_3 {
+  z-index: 8;
   position: absolute;
-  top: -5px;
+  top: 395px;
+  left: 260px;
+}
+
+.image_2 {
+  z-index: 10;
+  position: absolute;
+  top: 650px;
+  left: 685px;
+}
+
+.rectangle7 {
+  position: absolute;
+  z-index: 9;
+  top: 705px;
+  left: 666px;
+}
+
+.vector {
+  position: absolute;
+  top: 735px;
+  left: 645px;
+}
+
+.ellipse {
+  position: absolute;
+  z-index: 10;
+  top: 685px;
+  left: 413px;
+}
+
+.section_about__text {
+  position: relative;
+}
+
+.icon {
+  position: absolute;
 }

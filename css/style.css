@@ -18,6 +18,7 @@ body {
 
 button {
   outline: none;
+  cursor: pointer;
 }
 
 .wrapper {
@@ -51,10 +52,17 @@ button {
   margin-right: 40px;
   justify-content: center;
   font-size: 16px;
+  position: relative;
 }
 
-.menu__list_item::before {
+.menu__list_item a:hover::before {
   content: "";
+  position: absolute;
+  top: -25px;
+  width: 10px;
+  height: 10px;
+  left: 35px;
+  background-color: #1e266d;
 }
 
 .logo {
@@ -79,6 +87,9 @@ button {
   padding: 0px 14px 0px 16px;
   height: 40px;
   color: #fff;
+}
+.header__Contact button:hover{
+  box-shadow: 0px 2px 4px rgba(2, 0, 10, 1);
 }
 
 .hero {
@@ -149,29 +160,29 @@ button {
   padding-top: 30px;
 }
 
-.section_logos {
+.section__logos {
   padding-top: 180px;
   text-align: center;
 }
 
-.section_logos__text {
+.section__logos-text {
   font-size: 16px;
   line-height: 27px;
   color: rgba(69, 88, 128, 0.5);
   padding-bottom: 50px;
 }
 
-.section_logos__item a {
+.section__logos-item a {
   margin-right: 70px;
 }
 
-.section_about {
+.section__about {
   padding-top: 160px;
   text-align: center;
-  position: relative;
+
 }
 
-.section_about__title {
+.section__about-title {
   /* position: relative; */
   text-align: center;
   font-weight: 500;
@@ -179,18 +190,20 @@ button {
   line-height: 60px;
 }
 
-.section_about__grafic {
+.section__about-grafic {
   position: relative;
+    width: 1030px;
+    height: 1214px;
 }
 
-.image_4 {
+.section__about-grafic-image_4 {
   position: absolute;
   left: 400px;
   top: -120px;
   z-index: 4;
 }
 
-.rectangle5 {
+.section__about-grafic-rectangle5 {
   z-index: 3;
   position: absolute;
   top: 137px;
@@ -199,48 +212,48 @@ button {
   left: 415px;
 }
 
-.rectangle4 {
+.section__about-grafic-rectangle4 {
   z-index: 2;
   position: absolute;
   top: 400px;
   left: 700px;
 }
 
-.rectangle6 {
+.section__about-grafic-rectangle6 {
   z-index: 7;
   position: absolute;
   left: 250px;
   top: 400px;
 }
 
-.image_3 {
+.section__about-grafic-image_3 {
   z-index: 8;
   position: absolute;
   top: 395px;
   left: 260px;
 }
 
-.image_2 {
+.section__about-grafic-image_2 {
   z-index: 10;
   position: absolute;
   top: 650px;
   left: 685px;
 }
 
-.rectangle7 {
+.section__about-grafic-rectangle7 {
   position: absolute;
   z-index: 9;
   top: 705px;
   left: 666px;
 }
 
-.vector {
+.section__about-grafic-vector {
   position: absolute;
   top: 735px;
   left: 645px;
 }
 
-.ellipse {
+.section__about-grafic-ellipse {
   position: absolute;
   z-index: 10;
   top: 685px;
@@ -253,4 +266,108 @@ button {
 
 .icon {
   position: absolute;
+  right: 560px;
+  top: 135px;
 }
+
+.section_about__text__title {
+  position: absolute;
+  right: 325px;
+  top: 135px;
+  font-size: 22px;
+  line-height: 125%;
+  color: #1e266d;
+}
+
+.text__text {
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.portfolio{
+  width: 1600px;
+  height: 1000px;
+  background-color: #FFF9EA;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.portfolio__text-title {
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 60px;
+  color: #1E266D;
+  margin-top: 140px;
+  text-align: center;
+}
+
+.portfolio__text-text{
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 31px;
+  color: #455880;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.portfolio__text-button{
+  font-size: 16px;
+  background: #3751ff;
+  border-radius: 100px;
+  text-align: center;
+  border: none;
+  padding: 0px 14px 0px 16px;
+  color: #fff;
+  height: 50px;
+  width: 150px;
+  margin-top: 40px;
+  position: absolute;
+  left: 720px;
+
+}
+
+.portfolio__text-button:hover{
+   box-shadow: 0px 2px 4px rgba(2, 0, 10, 1);
+}
+
+.portfolio__fotos{
+  position: relative;
+}
+.portfolio__foto1{
+  position: absolute;
+  top: 425px;
+  right: 851px;
+}
+
+.portfolio__foto2 {
+  position: absolute;
+  top: 540px;
+  right: 520px;
+}
+
+.portfolio__foto3 {
+  position: absolute;
+  top: 596px;
+  right: 185px;
+}
+
+.portfolio__foto4 {
+  position: absolute;
+  top: 656px;
+  right: -155px;
+}
+
+.portfolio__foto5 {
+  position: absolute;
+  top: 515px;
+  right: -435px; 
+}
+
+.portfolio__foto6 {
+  position: absolute;
+  top: 676px;
+  right: 851px;
+}
+

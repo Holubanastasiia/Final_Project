@@ -6,37 +6,57 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <title>Final_project</title>
 </head>
 <body>
-    <div class="wrapper">
         <div class="header">
-            <img class="logo" src="img/logo.svg" alt="">
-            <div class="menu">
-                <ul class="menu__list">
-                   <li class="menu__list_item"><a href="#">Homepages</a> </li>
-                   <li class="menu__list_item"><a href="#">Products</a> </li>
-                   <li class="menu__list_item"><a href="#">Company</a> </li>
-                   <li class="menu__list_item"><a href="#">Pricing</a> </li>
-                   <li class="menu__list_item"><a href="#">Blog</a> </li> 
-                </ul>  
-            <div class="header__Contact">
-                <a href="#" type="tel">+0123456789</a>
-                <button class="button">Contact us</button>
-            </div>
+            <div class="container">
+                <div class="header__inner">
+                    <img class="header__logo" src="img/logo.svg" alt="">
+                    <div class="header__inner-menu">
+                        <ul class="header__menu-list">
+                        <li class="header__menu-list-item">
+                            <a href="#">Homepages</a> 
+                        </li>
+                        <li class="header__menu-list-item">
+                            <a href="#">Products</a>
+                         </li>
+                        <li class="header__menu-list-item">
+                            <a href="#">Company</a> 
+                        </li>
+                        <li class="header__menu-list-item">
+                            <a href="#">Pricing</a> 
+                        </li>
+                        <li class="header__menu-list-item">
+                            <a href="#">Blog</a> 
+                        </li> 
+                        </ul>  
+                    <div class="header__inner-contact">
+                        <a href="#" type="tel">+0123456789</a>
+                        <button class="header__inner-button">
+                            Contact us
+                        </button>
+                    </div>
+                    </div>
+                </div>
             </div>
         </div>  
         <div class="hero">
-            <p class="hero__title">Good design meets <br>
-                great user experience</p>
-            <p class="hero__text">For everyone, from beginners to experts</p>
-            <div class="hero__buttons">
-                <button class="button2">Buy Digits</button>
-                <button class="button3">See the Features</button>
+            <div class="container">
+                <div class="hero__inner">
+                    <p class="hero__title">Good design meets <br>
+                        great user experience</p>
+                    <p class="hero__text">For everyone, from beginners to experts</p>
+                    <div class="hero__buttons">
+                        <button class="button__buy">Buy Digits</button>
+                        <button class="button__see">See the Features</button>
+                    </div>
+                    <div class="hero__grafic">
+                        <img  src="img/Graphic.png" alt="" >
+                    </div>   
+                </div>
             </div>
-            <div class="hero__grafic"><img  src="img/Graphic.png" alt="" ></div>   
         </div>
         <div class="section__logos">
             <p class="section__logos-text">
@@ -52,56 +72,278 @@
             </div>
         </div>
         <div class="section__about">
-            <p class="section__about-title">Whatever work you do,<br>
-            we're able to help</p>
-            <div class="section__about-grafic">
-                
-                    <img class="section__about-grafic-image_4" src="img/image 4.png" alt="">
-                    <img class="section__about-grafic-rectangle5" src="img/Rectangle 5.png" alt="" >
-                    <img class="section__about-grafic-rectangle4" src="img/Rectangle 4.png" alt="">
-                    <img  class="section__about-grafic-rectangle6" src="img/Rectangle 6.png" alt="">
-                    <img class="section__about-grafic-image_3" src="img/image 3.png" alt="">
-                    <img class="section__about-grafic-image_2" src="img/image 2.png" alt="">
-                    <img class="section__about-grafic-vector" src="img/Vector 1.png" alt="" >
-                    <img class="section__about-grafic-rectangle7" src="img/Rectangle 7.png" alt="" >
-                    <img class="section__about-grafic-ellipse" src="img/Ellipse 1.png" alt="" >
-           
-            </div> 
-            <!-- <div class="section_about__text">
-                <img class="icon" src="img/Icon.png" alt="" >
-                <p class="section_about__text__title">Design and Assets</p>
-                <p class="text__text">Make your brand stand out with pixel-perfect design crafted to perfection.</p>   
-            </div> -->
-        </div>
+            <div class="container">
+                <p class="section__about-title">Whatever work you do,<br>
+                we're able to help</p>
+                <div class="section__about-grafic">
+                    <div class="section__about-grafic-inner">
+                        <img class="grafic__left" src="img/about-grafic.png" alt="" >
+    
+                        <div class="grafic__right">
+                            <div class="grafic__right-text">
+                                <img class="grafic__right-design" src="img/Icon.png" alt="">    
+                                <div class="grafic__right-text-some">
+                                    <p class="grafic__right-title">
+                                        Design and Assets
+                                    </p>
+                                    <p class="grafic__right-description">
+                                        Make your brand stand out with<br> pixel-perfect design <br> crafted to perfection.
+                                    <p>                              
+                                </div>                               
+                            </div>  
+                            <!-- <hr class="grafic__right-line">     -->
+                            <div class="grafic__right-text">
+                                <img class="grafic__right-design" src="img/Icon2.png" alt="">    
+                                <div class="grafic__right-text-some">
+                                    <p class="grafic__right-title">
+                                        Easy Content
+                                    </p>
+                                    <p class="grafic__right-description">
+                                        Make your brand stand out with<br> pixel-perfect design <br> crafted to perfection.
+                                    <p>                              
+                                </div>                               
+                            </div>  
+                            <!-- <hr class="grafic__right-line">    -->
+                            <div class="grafic__right-text">
+                                <img class="grafic__right-design" src="img/Icon3.png" alt="">    
+                                <div class="grafic__right-text-some">
+                                    <p class="grafic__right-title">
+                                        Fast and Reliable
+                                    </p>
+                                    <p class="grafic__right-description">
+                                        Make your brand stand out with<br> pixel-perfect design <br> crafted to perfection.
+                                    <p>                              
+                                </div>                               
+                            </div>       
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>   
         <div class="portfolio">
-            <div class="portfolio__text">
-                <p class="portfolio__text-title">
-                    Simplicity meets innovative design
-                </p>
-                <p class="portfolio__text-text">
-                    It's really easy to start using Digits. <br>
-                    Install the theme, choose a demo and <br>  
-                    start designing the future of your business!
-                </p>
-                <button class="portfolio__text-button">
-                    Buy Digits
-                </button>
-            
-            </div>
-            <div class="portfolio__fotos">
-                <img class="portfolio__foto1" src="/img/browser1.png" alt="" >
-                <img class="portfolio__foto2" src="/img/browser2.png" alt="" >
-                <img class="portfolio__foto3" src="/img/browser3.png" alt="" >
-                <img class="portfolio__foto4" src="/img/browser4.png" alt="" >
-                <img class="portfolio__foto5" src="/img/browser5.png" alt="" >
-                <img class="portfolio__foto6" src="/img/browser6.png" alt="" >
-                <!-- <img class="portfolio__foto7" src="/img/browser7.png" alt="" > -->
-                <!-- <img class="portfolio__foto8" src="/img/browser8.png" alt="" > -->
-                <!-- <img class="portfolio__foto9" src="/img/browser9.png" alt="" > -->
-                <!-- <img class="portfolio__foto10" src="/img/browser10.png" alt="" > -->
-                <!-- <img class="portfolio__foto11" src="/img/browser11.png" alt="" > -->
+            <div class="container">
+                <div class="portfolio__inner">
+                    <div class="portfolio__text">
+                        <p class="portfolio__text-title">
+                            Simplicity meets innovative design
+                        </p>
+                        <p class="portfolio__text-text">
+                            It's really easy to start using Digits. <br>
+                            Install the theme, choose a demo and <br>  
+                            start designing the future of your business!
+                        </p>
+                        <button class="portfolio__text-button">
+                            Buy Digits
+                        </button>
+                    
+                    </div>
+                    <div class="portfolio__fotos">
+                        <img src="/img/foto.png" alt="">
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
+        <div class="reviews">
+            <p class="reviews__title">
+                What others are <br> saying
+            </p>
+            <div class="reviews__boxes">
+                <div class="review">
+                    <p class="review__text">
+                        Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!
+                    </p>
+                    <img class="review__img" src="/img/review1.svg" alt="" >
+                    <p class="review__name">
+                        Happy User
+                    </p>
+                    <p class="review__club">
+                        tempy.club
+                    </p>
+                </div>
+                <div class="review">
+                    <p class="review__text">
+                        Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!
+                    </p>
+                    <img class="review__img" src="/img/review2.svg" alt="" >
+                    <p class="review__name">
+                        Happy User
+                    </p>
+                    <p class="review__club">
+                        tempy.club
+                    </p>
+                </div>
+                <div class="review">
+                    <p class="review__text">
+                        Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!
+                    </p>
+                    <img class="review__img" src="/img/review3.svg" alt="" >
+                    <p class="review__name">
+                        Happy User
+                    </p>
+                    <p class="review__club">
+                        tempy.club
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="question">
+            <div class="question__inner">
+                <p class="question__text">
+                    Ready to launch <br>
+                    your next website?
+                </p>
+                <div class="question__right">
+                    <button class="question__bnt">
+                        <img class="bnt__img" src="img/btn-img.svg" alt="" >
+                        Get in touch now
+                    </button>
+                    <p class="question__bnt-text">
+                        Or, take a peek inside our design studio
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__info">
+                        <img class="footer__logo" src="img/logo-footer.svg" alt="" >
+                        <p class="footer__text">
+                            Digits is a website template built to work seamlesly with the WordPress block editor to create beautifully designed pages in minutes.
+                        </p>
+                    </div>
+                    <div class="footer__right-inner">
+                        <div class="footer__menu">
+                            <p class="footer__menu-title">
+                                Pages
+                            </p>
+                            <ul class="footer__menu-items">
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        Home
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        About
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        News
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        Pricing
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__menu">
+                            <p class="footer__menu-title">
+                                Demos
+                            </p>
+                            <ul class="footer__menu-items">
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        Classic
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        Boxy
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        Gradient
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        Minimal
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        Night
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__menu">
+                            <p class="footer__menu-title">
+                                Resources
+                            </p>
+                            <ul class="footer__menu-items">
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        <img class="footer__menu-link-img" src="img/icon-facebook.svg" alt="" >
+                                    </a>
+                                    <a class="footer__menu-link" href="" >
+                                        <img class="footer__menu-link-img" src="img/icon-instagram.svg" alt="" >
+                                    </a>
+                                    <a class="footer__menu-link" href="" >
+                                        <img class="footer__menu-link-img" src="img/icon-twitter.svg" alt="" >
+                                    </a>
+                                    <a class="footer__menu-link" href="" >
+                                        <img class="footer__menu-link-img" src="img/icon-dribbble.svg" alt="" >
+                                    </a>
+                                    <a class="footer__menu-link" href="" >
+                                        <img class="footer__menu-link-img" src="img/icon-envato.svg" alt="" >
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        Download now
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="" >
+                                        Documentation
+                                    </a>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </div> 
+            </div>  
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom-inner">
+                    <p class="footer__bottom-copyright">
+                        Copyright © 2020 tempy.club
+                    </p>
+                    <ul class="footer__bottom-right">
+                        <li class="footer__bottom-item">
+                            <a class="footer__bottom-link" href="" >
+                                Privacy Policy
+                        </a>
+                    </li>
+                    <li class="footer__bottom-item">
+                            <a class="footer__bottom-link" href="" >
+                                Terms of Use
+                        </a>
+                    </li>
+                    <li class="footer__bottom-item">
+                            <a class="footer__bottom-link" href="" >
+                                GDPR
+                        </a>
+                    </li>
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+
 </body>
 </html>

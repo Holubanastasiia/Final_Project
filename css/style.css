@@ -141,12 +141,12 @@ button {
 
 .button__buy{  
   font-size: 16px;
-  background: #3751ff;
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
   border-radius: 100px;
   text-align: center;
   border: none;
   padding: 0px 14px 0px 16px;
-  color: #fff;
   margin-right: 22px;
   height: 50px;
   width: 150px;
@@ -163,11 +163,17 @@ button {
 }
 
 .button__buy:hover {
+  transition: all 0.4s;
+  color: #fff;
+  background-color: #3751FF;
   box-shadow: 0px 2px 4px rgba(2, 0, 10, 1);
 }
 
 .button__see:hover {
+  transition: all 0.4s;
   box-shadow: 0px 2px 4px rgba(2, 0, 10, 1);
+  color: #fff;
+  background-color: #3751FF;
 }
 
 .hero__grafic {
@@ -506,11 +512,15 @@ top: 165px;
 }
 
 .footer__menu-item a:hover{
-text-decoration: underline;
+  text-decoration: underline;
 }
 
 .footer__menu-link-img {
   margin-right: 25px;
+}
+
+.footer__menu-link-img a:hover{
+  text-decoration: none;
 }
 
 .footer__bottom{
@@ -544,4 +554,8 @@ text-decoration: underline;
   line-height: 27px;
   text-align: right;
   color: #455880;
+}
+
+.footer__bottom-item:hover{
+  text-decoration: underline;
 }

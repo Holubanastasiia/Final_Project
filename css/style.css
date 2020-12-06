@@ -351,13 +351,12 @@ top: 165px;
   line-height: 60px;
   text-align: center;
   color: #1E266D;
- 
+
 }
 
 .reviews__boxes{
   display: flex;
   justify-content: center;
-
 }
 
 .review{
@@ -442,7 +441,11 @@ top: 165px;
 .question__bnt-text{
   font-size: 16px;
   line-height: 125%;
-  color: #DFE0EB;
+  color: #DFE0EB; 
+}
+
+.question__bnt-text-link{
+  color: #FED385;
 }
 
 .question__right{

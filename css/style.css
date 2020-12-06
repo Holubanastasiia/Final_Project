@@ -281,7 +281,7 @@ top: 165px;
 
 .portfolio{
   background-color: #FFF9EA;
-  background-image: url(/img/foto.png);
+  background-image: url(../img/foto.png);
   background-repeat: no-repeat;
   background-position: center top 425px;
   height: 1000px;
